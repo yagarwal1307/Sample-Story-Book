@@ -1,0 +1,3 @@
+<nav>
+  <app-nav-button *ngFor='let navLink of navLinks' [navItem]='navLink' (clickEvent)='logger($event)'></app-nav-button>
+</nav>

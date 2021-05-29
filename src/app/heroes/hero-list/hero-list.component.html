@@ -1,0 +1,5 @@
+<h2>HEROES</h2>
+<ul>
+  <app-hero-list-individual *ngFor="let hero of heroes$ | async" [hero]='hero' [selectedId]='selectedId'></app-hero-list-individual>
+</ul>
+<button routerLink='/sidekicks'>Go to sidekicks</button>

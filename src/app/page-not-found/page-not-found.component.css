@@ -1,0 +1,7 @@
+.page-not-found {
+  border: 2px dashed #696966;
+  width: fit-content;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 1em;
+}
